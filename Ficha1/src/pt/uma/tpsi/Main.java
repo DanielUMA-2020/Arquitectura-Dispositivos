@@ -2,8 +2,14 @@ package pt.uma.tpsi;
 
 // Your First Program
 
-class HelloWorld {
+public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        int perimeter = calculatePerimeter ();
+        System.out.println("O perímetro do retângulo é: " + perimeter);
+    }
+
+    private static int calculatePerimeter() {
+        return 2 * (2 + 4);
     }
 }
